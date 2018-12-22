@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Desktop / Global View */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	max-width: 1824px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.col {
+	float: left;
+	padding: 1%;
+}
+
+.col-lg {
+	width: 22.7%;
+}
+
+.col-lg img {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+#menu {
+	float: right;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	text-decoration: none;
+	color: #1C458A;
+	padding: 8px;
+	font-size: 18px;
+	font-weight: 800;
+}
+
+header {
+	padding: 10px 20px 20px 20px;	
+}
+
+.hero {
+	background-image: url("../images/desk1.jpg");
+	padding: 52px 0px 72px 72px;
+	background-size: cover;
+	margin-top: 25px;
+}
+
+.hero2 {
+	z-index: 1;
+	background-image: url("../images/confo.jpg");
+	width: 1773px;
+	padding: 52px 25px 182px 25px;
+	background-size: cover;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	
+}
+
+.inphoto {
+	color: #fff;
+	font-weight: 800;
+	font-size: 33px;
+	margin-bottom: -54px;
+	
+}
+
+h1 {
+	color: #fff;
+	font-weight: 300px;
+	font-size: 52px;
+	margin-bottom: -5px;
+}
+
+
+.headingtext {
+	color: #FFFCFC;
+	margin-right:  20%;
+}
+
+.emailDemo {
+	color: #fff;
+	font-weight: 300px;
+	font-size: 28px;
+	margin-bottom: -5px;
+	margin-left: -35px;
+}
+
+.phoneDemo {
+	color: #fff;
+	font-weight: 300px;
+	font-size: 21px;
+	margin-bottom: -5px;
+	margin-left: -35px;
+}
+
+
+.contact {
+	background-color: #1C458A;
+	padding: 8px 38px;
+	text-decoration: none;
+	color: #fff;
+}
+
+.write {
+	background-color:azure;
+	padding: 1.2em;
+	margin-bottom: 25px;
+}
+
+.foot {
+	background-color: darkgray;
+	padding: 1.2em;
+	
+}
+
+
+
+.images {
+    text-align:center;
+}
+.images img {
+    width:214px;
+    height:320px;
+	padding-bottom: 25px;
+}
+.images div {
+    width:214px;
+    text-align:center;
+}
+
+.images div span {
+    display:block;
+}
+
+.margin_right {
+    margin-right:50px;
+}
+
+.float {
+    float:left;
+}
+.clear {
+    clear:both;
+    height:0;
+    width:0;
+}
+
+
+
+/* Tablet View */
+
+@media (max-width: 768px) {
+
+#menu li {
+	display: block;
+	text-align: right;
+	}
+	
+	.col-md {
+		width: 48%;
+	}
+}
+	
+/* Mobile View */
+	
+@media (max-width: 550px){
+
+	.slicknav_menu {
+		display: block;
+	}
+
+	#menu {
+		display: none;
+	}
+	
+	.col-sm {
+		width: 100%;
+	}
+	
+	.col {
+		padding: 0%;
+	}
+	
+	.col1 {
+		padding-bottom: 2px;
+	}
+	
+	.inphoto {
+		margin-top: -25px;
+		
+	}
+	
+}
+	
